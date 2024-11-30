@@ -28,15 +28,18 @@
         .short-desc{
             position: relative;
         }
-        .cynthia{
-            position: sticky;
-            top: 0; /* Sticks to the top of the section */
-            background-color: white; /* Optional: Add background to avoid overlap */
-            z-index: 10; /* Ensures it appears above other content if necessary */
-            padding: 10px; /* Optional: Add padding for aesthetics */
-            font-size: 1.5rem; /* Adjust font size */
-            text-align: center;
-        }
+        .cynthia {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensures it spans the full width */
+    background-color: white; /* Optional: Add background */
+    z-index: 10;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
     </style>
 
 </head>
@@ -87,7 +90,7 @@
     <!-- Description -->
     <section class="container-fluid short-desc " id="short-desc">
         <div class="cynthia">
-            cynthia            
+            cynthiaa
         </div>
         <div class="item item1 p-5 d-flex flex-column">
             <div class="d-flex align-items-center w-100" style="gap: 15px;">
